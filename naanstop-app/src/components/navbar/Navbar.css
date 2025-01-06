@@ -1,0 +1,40 @@
+/* Basic styles for the navbar */
+.navbar {
+  background-color: green;
+  height: 80px;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link.active {
+  background-color: darkgreen;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .navbar {
+  background-color:darkgreen;
+}
+
+body.dark-mode .navbar .nav-link {
+  color: white;
+}
+
+body.dark-mode .navbar .nav-link.active {
+  background-color: #555;
+}
+
+body.dark-mode .btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: white;
+  color: #333;
+}

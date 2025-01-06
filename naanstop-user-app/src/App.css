@@ -1,0 +1,72 @@
+/* Base styling */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff0f0; /* Light red background */
+  color: #333;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff0000; /* Vibrant red */
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Links */
+a {
+  color: #ff0000; /* Vibrant red for links */
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  color: #cc0000; /* Darker red on hover */
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff0000; /* Vibrant red */
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+  background-color: #ff0000;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #cc0000;
+}
+
+/* Additional color changes as needed */

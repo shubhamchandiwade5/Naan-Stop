@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+/* Cart Styling */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+.table td img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Additional Styling */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}

@@ -1,0 +1,25 @@
+.footer {
+    background-color: #ff0000; /* Vibrant red color */
+  }
+  
+  .footer a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #d4edda; /* Lighter red on hover */
+  }
+  
+  .footer .container {
+    text-align: center;
+  }
+  
+  .footer .row > div {
+    margin-bottom: 20px;
+  }
+  
+  .footer .me-2 {
+    margin-right: 10px;
+  }
+  

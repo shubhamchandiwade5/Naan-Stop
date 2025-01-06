@@ -1,0 +1,23 @@
+
+.container {
+    padding-top: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #007bff; /* Bootstrap's blue shade */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

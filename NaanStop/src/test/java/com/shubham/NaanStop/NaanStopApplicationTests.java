@@ -1,0 +1,13 @@
+package com.shubham.NaanStop;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class NaanStopApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

@@ -1,0 +1,29 @@
+
+.container {
+    padding-top: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .btn-success {
+    width: 100%;
+    background-color: #28a745; /* Bootstrap's green shade */
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

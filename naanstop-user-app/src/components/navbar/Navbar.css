@@ -1,0 +1,61 @@
+/* Basic styles for the navbar */
+.navbar {
+  background-color: #ff0000; /* Vibrant red color */
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: 24px;
+}
+
+.navbar .navbar-brand img.logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: #d4edda; /* Lighter red on hover */
+}
+
+.navbar .nav-item button {
+  border: none;
+  background: none;
+}
+
+.navbar .navbar-nav.ms-auto {
+  margin-left: auto; /* Move the theme toggle button to the right */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .navbar {
+  background-color: #1e1e1e; /* Darker shade for dark mode */
+}
+
+body.dark-mode .navbar .nav-link {
+  color: white;
+}
+
+body.dark-mode .navbar .nav-link:hover,
+body.dark-mode .navbar .navbar-brand:hover {
+  color: #bbbbbb; /* Lighter shade on hover for dark mode */
+}
+
+body.dark-mode .btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: white;
+  color: #333;
+}
+
+.navbar {
+  margin-bottom: 20px; /* Add some margin below the navbar */
+}
