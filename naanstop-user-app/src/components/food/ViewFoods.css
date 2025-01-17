@@ -1,8 +1,7 @@
-/* Header image styling */
 .header-image-container {
   position: relative;
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: 400px; 
   overflow: hidden;
 }
 
@@ -19,7 +18,7 @@
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  width: 100%; /* Cover the whole width */
+  width: 100%; 
 }
 
 .overlay-content h2 {
@@ -29,13 +28,13 @@
 
 .overlay-content .search-bar {
   margin-bottom: 20px;
-  width: 50%; /* Adjust to make search bar smaller */
+  width: 50%; 
   margin-left: auto;
   margin-right: auto;
 }
 
 .overlay-content .input-group-text {
-  background-color: #ff0000; /* Vibrant red for search icon background */
+  background-color: #ff0000; 
   color: #fff;
 }
 
@@ -44,16 +43,15 @@
 }
 
 .overlay-content .filters .form-control {
-  width: 150px; /* Make dropdowns smaller */
-  margin: 0 10px; /* Add space between dropdowns */
+  width: 150px; 
+  margin: 0 10px; 
 }
 
-/* Food cards styling */
 .card {
   border: 1px solid #ddd;
   border-radius: 10px;
   transition: box-shadow 0.3s ease;
-  height: 100%; /* Ensure the card takes full height */
+  height: 100%; 
 }
 
 .card:hover {
@@ -63,7 +61,7 @@
 .card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 250px; /* Increase the height of the image */
+  height: 250px; 
   object-fit: cover;
 }
 
@@ -84,27 +82,39 @@
 
 .price {
   font-weight: bold;
-  color: #ff0000; /* Vibrant red for price */
+  color: #ff0000; 
 }
 
-.btn-primary {
-  background-color: #ff0000; /* Vibrant red */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group .btn {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.button-group .btn:last-child {
+  margin-right: 0;
+}
+
+.btn-primary, .btn-success {
+  background-color: #ff0000; 
   border: none;
-  width: 100%;
   text-align: center;
   padding: 10px;
   transition: background-color 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: #cc0000; /* Darker red on hover */
+.btn-primary:hover, .btn-success:hover {
+  background-color: #cc0000; 
 }
 
-/* Adjust the width of the cards */
 .row .col-md-4 {
   flex: 0 0 33.3333%;
   max-width: 33.3333%;
-  padding: 15px; /* Add padding between cards */
+  padding: 15px; 
 }
 
 @media (max-width: 768px) {
@@ -119,12 +129,12 @@
   }
 
   .card-img-top {
-    height: 200px; /* Adjust image height for smaller screens */
+    height: 200px; 
   }
 
   .row .col-md-4 {
-    flex: 0 0 100%; /* Ensure one card per row on smaller screens */
-    max-width: 100%; /* Ensure one card per row on smaller screens */
+    flex: 0 0 100%; 
+    max-width: 100%; 
   }
 }
 
