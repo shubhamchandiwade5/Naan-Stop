@@ -1,6 +1,6 @@
-/* Basic styles for the navbar */
+
 .navbar {
-  background-color: #ff0000; /* Vibrant red color */
+  background-color: #e64a19;  
 }
 
 .navbar .navbar-brand {
@@ -15,7 +15,7 @@
 
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
-  color: #d4edda; /* Lighter red on hover */
+  color: #d4edda; 
 }
 
 .navbar .nav-item button {
@@ -24,17 +24,17 @@
 }
 
 .navbar .navbar-nav.ms-auto {
-  margin-left: auto; /* Move the theme toggle button to the right */
+  margin-left: auto;
 }
 
-/* Dark Mode Styles */
+
 body.dark-mode {
   background-color: #121212;
   color: white;
 }
 
 body.dark-mode .navbar {
-  background-color: #1e1e1e; /* Darker shade for dark mode */
+  background-color: #1e1e1e; 
 }
 
 body.dark-mode .navbar .nav-link {
@@ -43,7 +43,7 @@ body.dark-mode .navbar .nav-link {
 
 body.dark-mode .navbar .nav-link:hover,
 body.dark-mode .navbar .navbar-brand:hover {
-  color: #bbbbbb; /* Lighter shade on hover for dark mode */
+  color: #bbbbbb; 
 }
 
 body.dark-mode .btn-outline-light {
@@ -57,5 +57,6 @@ body.dark-mode .btn-outline-light:hover {
 }
 
 .navbar {
-  margin-bottom: 20px; /* Add some margin below the navbar */
+  margin-bottom: 20px;
 }
+
